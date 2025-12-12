@@ -1,0 +1,11 @@
+QPushButton#startGame, QPushButton#quitterBtn{
+    background: qlineargradient(
+        x1:0, y1:0, x2:0, y2:1,
+        stop:0 rgba(25, 25, 25, 190),
+        stop:1 rgba(10, 10, 10, 210)
+    );
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
